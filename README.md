@@ -3,31 +3,22 @@ PruebasUnitarias
 
 Práctica de Laboratorio #5. Pruebas Unitarias
 
-Un número racional es un número con un numerador y un denominador de la forma a/b, donde a es el numerador y b es el denominador.  
-Por ejemplo, 1/3, 3/4 y 5/2.
+Un número racional es un número con un numerador y un denominador de la forma a/b, donde a es el numerador y b es el denominador.  Por ejemplo, 1/3, 3/4 y 5/2.
 
 Un número racional no puede tener un cero como denominador, pero si se admite un cero como numerador.
 
 Cada número entero a es equivalente al número racional a/1.
 
-Los números racionales se utilizan en el cálculo exacto en el que intervienen fracciones. Por ejemplo, 1/3 = 0.33333... no se puede
-representar de forma precisa utilizando el formato de punto flotante.  Para obtener resultados exactos, se deben utilizar entonces números 
-racionales.
+Los números racionales se utilizan en el cálculo exacto en el que intervienen fracciones. Por ejemplo, 1/3 = 0.33333... no se puede representar de forma precisa utilizando el formato de punto flotante.  Para obtener resultados exactos, se deben utilizar entonces números racionales.
 
-Los números racionales pueden ser equivalentes, por ejemplo, 
-1/3 = 2/6 = 3/9 = 4/12. Por convenio, se utiliza un 1/3 para
-representar a todos los números racionales que son equivalentes
-a 1/3.
-El numerador y el denominador de 1/3 sólo tienen como divisor común al 
-número 1, por lo tanto, se dice que 1/3 está reducida a su mínima 
-expresión.
+Los números racionales pueden ser equivalentes, por ejemplo, 1/3 = 2/6 = 3/9 = 4/12. Por convenio, se utiliza un 1/3 para representar a todos los números racionales que son equivalentes a 1/3.
+El numerador y el denominador de 1/3 sólo tienen como divisor común al número 1, por lo tanto, se dice que 1/3 está reducida a su mínima expresión.
 
-Para reducir un número racional a su mínima expresión, es necesario
-encontrar el máximo común divisor, de los valores absolutos de su
-numerador y denominador y dividir ambos por dicho valor.
+Para reducir un número racional a su mínima expresión, es necesario encontrar el máximo común divisor, de los valores absolutos de su numerador y denominador y dividir ambos por dicho valor.
 
 Para calcular el maximo comun divisor de dos números puede usar el siguiente algoritmo:
 
+<pre>
 def gcd(n, d):
     n1 = abs(n);
     n2 = abs(d)
@@ -38,6 +29,7 @@ def gcd(n, d):
             gcd = k
         k += 1
     return gcd
+</pre>
 
 
 1) El fichero gcd.rb contiene una implementación en Ruby del máximo
