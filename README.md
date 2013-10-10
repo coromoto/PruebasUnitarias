@@ -2,6 +2,7 @@ PruebasUnitarias
 ================
 
 Práctica de Laboratorio #5. Pruebas Unitarias
+---------------------------------------------
 
 Un número racional es un número con un numerador y un denominador de la forma a/b, donde a es el numerador y b es el denominador.  Por ejemplo, 1/3, 3/4 y 5/2.
 
@@ -32,11 +33,12 @@ def gcd(n, d):
 </pre>
 
 
-1) El fichero gcd.rb contiene una implementación en Ruby del máximo
+1.  El fichero gcd.rb contiene una implementación en Ruby del máximo
 común divisor. Haciendo uso del depurador de ruby detecte el error en el código.
 
 Para invocar al depurador, se ha de ejecutar: ruby -rdebug gcd.rb
 Una vez dentro de mismo:
+
     * Para pedir ayuda el comando es:
          (rdb:1) help
     * Para listar el programa
