@@ -49,10 +49,10 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
                  (rdb:1) l
                  [-4, 5] in gcd.rb
                  => 1  def gcd(u, v)
-                 2    u, v = u.abs, v.abs
-                 3    while v == 0
-                 4      u, v = v, u % v
-                 5    end
+                    2    u, v = u.abs, v.abs
+                    3    while v == 0
+                    4      u, v = v, u % v
+                    5    end
   * Para ejecutar la siguiente sentencia:
 
                  (rdb:1) n
