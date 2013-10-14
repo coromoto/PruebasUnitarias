@@ -36,7 +36,7 @@ Para calcular el maximo comun divisor de dos números puede usar el siguiente al
             return gcd
 
 
-1. *El fichero gcd.rb contiene una implementación en Ruby del máximo*
+1. El fichero gcd.rb contiene una implementación en Ruby del máximo
 común divisor. Haciendo uso del depurador de ruby detecte el error en el código.
 
     Para invocar al depurador, se ha de ejecutar: `ruby -rdebug gcd.rb`
@@ -68,7 +68,7 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
 
            (rdb:1) w
 
-2. *Implemente una clase Ruby para representar los números racionales.*
+2. Implemente una clase Ruby para representar los números racionales.
 
     Cada objeto debe representar un número racional reducido a su mínima expresión.
     Se han de implementar los métodos de instancia que se solicitan a continuación:
@@ -83,5 +83,5 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
 
   * `division` # devuelve un nuevo racional que multiplica al objeto que invoca el que le pasan como parámetro
 
-3. *Implemente un conjunto de [Pruebas Unitarias](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing) que permitan comprobar el correcto funcionamiento 
-   de la clase que implementa a los números racionales.*
+3. Implemente un conjunto de [Pruebas Unitarias](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing) que permitan comprobar el correcto funcionamiento 
+   de la clase que implementa a los números racionales.
