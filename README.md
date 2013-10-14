@@ -13,7 +13,7 @@ donde `a` es el numerador y `b` es el denominador.  Por ejemplo, `1/3`, `3/4` y 
 
 Un número racional no puede tener un cero como denominador, pero si se admite un cero como numerador.
 
-Cada número entero a es equivalente al número racional `a/1`.
+Cada número entero `a` es equivalente al número racional `a/1`.
 
 Los números racionales se utilizan en el cálculo exacto en el que intervienen fracciones. Por ejemplo, `1/3 = 0.33333...` no se puede representar de forma precisa utilizando el formato de punto flotante.  Para obtener resultados exactos, se deben utilizar entonces números racionales.
 
