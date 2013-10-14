@@ -36,7 +36,7 @@ Para calcular el maximo comun divisor de dos números puede usar el siguiente al
             return gcd
 
 
-1. El fichero gcd.rb contiene una implementación en Ruby del máximo
+1. El fichero `gcd.rb` contiene una implementación en Ruby del máximo
 común divisor. Haciendo uso del depurador de ruby detecte el error en el código.
 
     Para invocar al depurador, se ha de ejecutar: `ruby -rdebug gcd.rb`
