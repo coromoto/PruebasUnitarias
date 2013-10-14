@@ -44,7 +44,6 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
   * Para pedir ayuda el comando es:
 
              (rdb:1) help
-
   * Para listar el programa
 
            (rdb:1) l
@@ -54,19 +53,15 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
            3    while v == 0
            4      u, v = v, u % v
            5    end
-
   * Para ejecutar la siguiente sentencia:
 
            (rdb:1) n
-
   * Para establecer un punto de ruptura (breakpoint):
 
            (rdb:1) b 4
-
   * Para ver dónde se está:
 
            (rdb:1) w
-
 2. Implemente una clase Ruby para representar los números racionales.
 
     Cada objeto debe representar un número racional reducido a su mínima expresión.
