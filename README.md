@@ -42,11 +42,11 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
     Para invocar al depurador, se ha de ejecutar: `ruby -rdebug gcd.rb`
     Una vez dentro de mismo:
 
-    * Para pedir ayuda el comando es:
+  * Para pedir ayuda el comando es:
 
              (rdb:1) help
 
-    * Para listar el programa
+  * Para listar el programa
 
            (rdb:1) l
            [-4, 5] in gcd.rb
@@ -56,15 +56,15 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
            4      u, v = v, u % v
            5    end
 
-    * Para ejecutar la siguiente sentencia:
+  * Para ejecutar la siguiente sentencia:
 
            (rdb:1) n
 
-    * Para establecer un punto de ruptura (breakpoint):
+  * Para establecer un punto de ruptura (breakpoint):
 
            (rdb:1) b 4
 
-    * Para ver dónde se está:
+  * Para ver dónde se está:
 
            (rdb:1) w
 
