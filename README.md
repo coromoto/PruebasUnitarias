@@ -5,9 +5,9 @@ Introducción
 ------------
 
 
-Un número racional es un número con un numerador y un denominador de la forma `a/b`, 
+Un número racional es un número con un numerador y un denominador de la forma 
 
-![](assets/images/rational.jpeg)
+![a/b](assets/images/rational.jpeg)
 
 donde `a` es el numerador y `b` es el denominador.  Por ejemplo, `1/3`, `3/4` y `5/2`.
 
