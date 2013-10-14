@@ -72,6 +72,5 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
   * `resta`    # devuelve un nuevo racional que resta al objeto que invoca el que le pasan como parámetro 
   * `producto` # devuelve un nuevo racional que multiplica al objeto que invoca el que le pasan como parámetro
   * `division` # devuelve un nuevo racional que multiplica al objeto que invoca el que le pasan como parámetro
-
 3. Implemente un conjunto de [Pruebas Unitarias](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing) que permitan comprobar el correcto funcionamiento 
    de la clase que implementa a los números racionales.
