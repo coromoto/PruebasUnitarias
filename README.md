@@ -55,13 +55,13 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
                  5    end
   * Para ejecutar la siguiente sentencia:
 
-           (rdb:1) n
+                 (rdb:1) n
   * Para establecer un punto de ruptura (breakpoint):
 
-           (rdb:1) b 4
+                 (rdb:1) b 4
   * Para ver dónde se está:
 
-           (rdb:1) w
+                 (rdb:1) w
 2. Implemente una clase Ruby para representar los números racionales.
 
     Cada objeto debe representar un número racional reducido a su mínima expresión.
